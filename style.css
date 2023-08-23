@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI","Open Sans","Helvetica Neue",sans-serif;
+}
+.title {
+    margin-bottom: 10px;
+}
+.underline {
+    width: 100px;
+    height: 4px;
+    background: #c59d5f;
+    margin: 0 auto;
+}
+button {
+    background-color: white;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 6px;
+    color: #c59d5f;
+    transition: all .4s;
+}
+button:hover {
+    background-color: #c59d5f;
+    color: white;
+}
+#card {
+    margin-bottom: 32px;
+}
+#card img {
+    border: 5px solid #c59d5f;
+    object-fit: cover;
+}
+.price {
+    color: #c59d5f;
+}
+.text {
+    font-size: 13px;
+}
+@media (min-width: 769px) {
+    #card img {
+        min-width: 200px;
+        height: 175px;
+    }
+}
+@media (max-width:769px) {
+    #card img {
+        height: 240px;
+    }
+}
+

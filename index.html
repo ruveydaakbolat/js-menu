@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container p-5">
+
+        <h1 class="title text-center">Our Menu</h1>
+        <div class="underline"></div>
+        <div class="d-flex justify-content-center align-items-center mt-4 mb-5 gap-3">
+            <button class="filter-btn" data-id="all">All</button>
+            <button class="filter-btn" data-id="breakfast">Breakfast</button>
+            <button class="filter-btn" data-id="lunch">Lunch</button>
+            <button class="filter-btn" data-id="drinks">Drinks</button>
+        </div>
+
+        <!-- Menu Elements -->
+        <div id="menu-container" class="row row-cols-lg-2 justify-content-center"></div>
+
+    </div>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>
